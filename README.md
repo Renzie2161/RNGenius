@@ -83,11 +83,3 @@ Alternatively, you can directly use the hosted version [here](https://www.exampl
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- **Font Awesome**: For providing icons used in the interface.
-- **JetBrains Mono NL**: For the clean and professional terminal font.
-- **SweetAlert2**: For user-friendly notifications.
