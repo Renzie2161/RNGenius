@@ -46,7 +46,7 @@ A powerful simulation tool designed to calculate probabilities, rolls, prices, a
    ```
 3. Open the `index.html` file in your browser:
 
-Alternatively, you can directly use the hosted version [here](https://www.example.com).
+Alternatively, you can directly use the hosted version [here](https://renzie2161.github.io/RNGenius/).
 
 ---
 
