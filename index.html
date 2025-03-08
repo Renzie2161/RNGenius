@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RNGenius</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1><span>RN</span>Genius</h1>
+  </div>
+  <div class="container">
+    <div class="card controls">
+      <div class="inputs">
+        <input type="text" placeholder="Probability" id="probability">
+        <input type="text" placeholder="Attempts" id="attempts">
+        <input type="text" placeholder="Price per rolls" id="price">
+        <button class="main-button" title="Click to simulate"><i class="fas far fa-play-circle"></i>Generate</button>
+        <button class="action-button" id="clipboard" title="Copy results to clipboard"><i
+            class="fas fa-clipboard"></i></button>
+        <button class="action-button" id="download" title="Download results as a text file"><i
+            class="fas fas fas fa-file-download"></i></button>
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="Max Rolls" id="maxRolls">
+        <input type="text" placeholder="Max Price" id="maxPrice">
+        <input type="text" placeholder="Time per roll (Hh:Mm:Ss)" id="timePerRoll">
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="terminal" id="terminal"></div>
+    </div>
+  </div>
+  <div id="background">
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
