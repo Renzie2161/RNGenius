@@ -42,12 +42,9 @@ A powerful simulation tool designed to calculate probabilities, rolls, prices, a
    ```
 2. Navigate to the project directory:
    ```bash
-   cd simulation-tool
+   cd RNGenius
    ```
 3. Open the `index.html` file in your browser:
-   ```bash
-   open index.html
-   ```
 
 Alternatively, you can directly use the hosted version [here](https://www.example.com).
 
